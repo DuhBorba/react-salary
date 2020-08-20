@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# grades-control-api
 
-## Available Scripts
+![GIF do projeto](https://github.com/DuhBorba/react-salary/blob/master/demo.gif)
 
-In the project directory, you can run:
+## Sobre este projeto
+Esse foi o trabalho prático do módulo 3 do Bootcamp Full Stack do [IGTI - Instituto de Gestão e Tecnologia da Informação](https://www.igti.com.br/), O objetivo foi construir uma aplicação em React JS que a partir do salário bruto, calcula os descontos do INSS e IRPF, chegando no salário liquido. 
 
-### `yarn start`
+### Enunciado do trabalho
+* [Enunciado](https://github.com/DuhBorba/react-salary/blob/master/enunciado.pdf)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### IGTI
+O Instituto de Gestão e Tecnologia da Informação, fundado em 2006, é uma instituição de ensino superior credenciada pelo MEC. 
+É referência nacional na formação profissional em TI e Tecnologias Emergentes, e possui um modelo educacional a distância que prioriza a excelência acadêmica dos seus alunos
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Pré-requisitos
 
-### `yarn test`
+Para instalar você vai precisar:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Node.js
+* Yarn
 
-### `yarn build`
+### Instalação
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Instalação das dependências do projeto:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+``
+yarn install
+``
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Para produção:
 
-### `yarn eject`
+``
+yarn start
+``
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Executa o aplicativo no modo de desenvolvimento.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Abra http://localhost:3000 para visualizá-lo no navegador.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+A página será recarregada se você fizer edições.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Desenvolvimento
 
-## Learn More
+Para o desenvolvimento foi necessário:
+* Utilizar a biblioteca React JS
+* Utilizar Class Components
+* Utilizar Intl para formatação dos valores monetários
+* Utilizar Materialize CSS para estilização
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Construído com
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* JavaScript
+* [React JS](https://reactjs.org/) - Biblioteca
+* [Materialize CSS](https://materializecss.com/) - Estilizar front-end
+* [Prettier](https://prettier.io/) - Formatador de código
 
-### Code Splitting
+## Autores
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* [Eduardo Luis Borba](https://github.com/DuhBorba) :rocket:
 
-### Analyzing the Bundle Size
+## Licença
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes
