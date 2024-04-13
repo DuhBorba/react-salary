@@ -1,4 +1,4 @@
-# grades-control-api
+# react-salary
 
 ![GIF do projeto](https://github.com/DuhBorba/react-salary/blob/master/demo.gif)
 
